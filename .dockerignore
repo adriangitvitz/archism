@@ -1,0 +1,10 @@
+node_modules
+.svelte-kit
+build
+data
+*.db
+*.db-shm
+*.db-wal
+Dockerfile
+docker-compose.yml
+.git

@@ -1,0 +1,59 @@
+@import 'tailwindcss';
+
+@theme {
+	--color-zinc-950: #241a15;
+	--color-zinc-900: #2b1f1a;
+	--color-zinc-800: #3d2817;
+	--color-zinc-700: #5a4a32;
+	--color-zinc-600: #a89078;
+	--color-zinc-500: #b39e85;
+	--color-zinc-400: #cdbca7;
+	--color-zinc-300: #ccb89d;
+	--color-zinc-200: #e0d2b8;
+	--color-zinc-100: #f0e6d2;
+	--color-zinc-50: #f8f2e4;
+
+	--color-cyan-950: #3d2817;
+	--color-cyan-900: #4a3320;
+	--color-cyan-800: #6a4d2e;
+	--color-cyan-700: #b8905e;
+	--color-cyan-600: #d4a574;
+	--color-cyan-500: #e8b55e;
+	--color-cyan-400: #f0c080;
+	--color-cyan-300: #f0d0a0;
+
+	--color-sky-500: #daa06d;
+	--color-sky-400: #e5b585;
+
+	--color-rose-950: #4a2a1e;
+	--color-rose-900: #5e3526;
+	--color-rose-500: #e89070;
+	--color-rose-400: #eca080;
+	--color-rose-300: #f0b090;
+
+	--color-emerald-950: #2e3324;
+	--color-emerald-900: #3a4030;
+	--color-emerald-700: #78885c;
+	--color-emerald-500: #a8b884;
+	--color-emerald-400: #a8b884;
+	--color-emerald-300: #b8c894;
+
+	--color-amber-950: #4a3a1e;
+	--color-amber-900: #5e4a26;
+	--color-amber-700: #b8905e;
+	--color-amber-500: #e8b55e;
+	--color-amber-400: #e8b55e;
+	--color-amber-300: #f0c880;
+
+	--color-violet-950: #3e2620;
+	--color-violet-900: #4e2f27;
+	--color-violet-500: #d9988a;
+	--color-violet-400: #d9988a;
+	--color-violet-300: #e9a89a;
+	--color-orange-950: #45301c;
+	--color-orange-300: #ecc09a;
+}
+
+html {
+	font-size: 17.5px;
+}

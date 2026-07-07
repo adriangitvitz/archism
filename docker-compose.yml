@@ -1,0 +1,30 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: archsim
+      POSTGRES_PASSWORD: archsim
+      POSTGRES_DB: archsim
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U archsim -d archsim']
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  app:
+    build: .
+    ports:
+      - '8090:3000'
+    environment:
+      DATABASE_URL: postgres://archsim:archsim@db:5432/archsim
+      ORIGIN: http://localhost:8090
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:
