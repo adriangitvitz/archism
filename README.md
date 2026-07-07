@@ -2,6 +2,9 @@
 
 Design system architectures on a drag-and-drop canvas (or as mermaid text), target **AWS / GCP / Azure / bare metal**, and verify them like production: live traffic simulation, static design validation, scoring, and pub/sub event-flow visualization.
 
+<img width="2549" height="1314" alt="Screenshot 2026-07-06 at 10 04 36 p m" src="https://github.com/user-attachments/assets/c80920a2-9dbe-4f0d-92ae-9e2993a9f991" />
+
+
 ## Features
 
 - **Canvas editor** - Svelte Flow canvas with a searchable palette of 36 infrastructure components (load balancers, databases, caches, queues, topics…). Drag from the palette (or double-click to add), wire nodes, tune replicas / max QPS / autoscaling per node.
